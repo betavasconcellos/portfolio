@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter';
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
+}
+
+.cabecalho{
+    height: 65px;
+}
+.conteudo{
+    padding: 0 5rem;
+}
+.rodape{
+    text-align: center;
+    padding-top: 3rem;
+}
+span{
+    color:#4F3ACF;
+}
+strong{
+    color: black;
+    
+}
+.logo{
+    font-family: 'Source Code Pro', monospace;
+    color:#4F3ACF;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom:5rem;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding:4rem 0;
+}
+
+p{
+    color:#5F5F5F;
+}
+
+button{
+    background-color:#4F3ACF;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    padding:1rem 2rem;
+    margin-top: 3rem;
+}

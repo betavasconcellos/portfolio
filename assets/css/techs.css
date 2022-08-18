@@ -1,0 +1,47 @@
+.techs__cards{
+    display:flex;
+    justify-content: space-between;
+}
+
+.techs__item{
+    border:1px solid #B8B8B8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+.techs__item:hover{
+    border: none;
+    background: #4F3ACF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 200ms;
+    color:white;
+}
+
+.techs__item p{
+    color:inherit;
+}
+
+.techs__item:last-child{
+    margin-right: 0rem;
+}
+
+.techs__rotulo{
+position: absolute;
+width: 70px;
+height: 70px;
+z-index: 1;
+}
+
+.html{
+    background: url(../img/html.svg) right / contain no-repeat;
+    left:40rem;
+    top:50rem;
+    
+}
+.css{
+    background: url(../img/css.svg) right / contain no-repeat;
+    left:80rem;
+    top:50rem;
+}

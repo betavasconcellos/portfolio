@@ -1,0 +1,26 @@
+.sobre{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 65px);
+}
+
+.sobre__texto{
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 3rem;
+}
+
+.sobre__foto{
+    background: url(../img/foto.jpg) center/ cover no-repeat;
+    width:350px;
+    height:350px;
+}
+.sobre__foto-fundo{
+    position: absolute;
+    background: #0C2026;
+    transform: rotate(6deg);
+    width:350px;
+    height:350px;
+    z-index: -1;
+}

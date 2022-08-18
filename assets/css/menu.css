@@ -1,0 +1,32 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 2rem;
+}
+
+
+.menu__lista{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.menu__item{
+    margin-right: 1rem;
+}
+
+.menu__item:last-child{
+    margin-right: 0rem;
+}
+
+.menu__link{
+    color:black;
+
+}
+
+.menu__link:hover{
+    color:#4F3ACF;
+    font-weight: 700;
+
+}
